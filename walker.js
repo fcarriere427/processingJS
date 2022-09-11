@@ -1,4 +1,4 @@
-/ Adapted from Dan Shiffman, natureofcode.com
+// Adapted from Dan Shiffman, natureofcode.com
 
 var Walker = function() {
     this.x = width/2;
