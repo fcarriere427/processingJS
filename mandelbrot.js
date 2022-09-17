@@ -10,6 +10,8 @@ size(640, 360);
 noLoop();
 background(255);
 
+let w, h, xmin, ymin, maxiterations, xmax, ymax, dx, dy, x, y as float;
+
 // Establish a range of values on the complex plane
 // A different range will allow us to "zoom" in or out on the fractal
 
