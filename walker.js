@@ -4,8 +4,8 @@ let height = 750;
 function setup() {
   createCanvas(width, height);
   background(255);
-  stroke(255);
-  noLoop();
+  // stroke(255);
+  // noLoop();
 }
 
 var Walker = function() {
