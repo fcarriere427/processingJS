@@ -1,6 +1,6 @@
 let width = 1500;
 let height = 750;
-let zoom = 5;
+let zoom = 1.2;
 
 function setup() {
   createCanvas(width, height);
