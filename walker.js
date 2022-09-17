@@ -3,7 +3,7 @@ let height = 750;
 
 function setup() {
   createCanvas(width, height);
-  background(0);
+  background(255);
   stroke(255);
   noLoop();
 }
