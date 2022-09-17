@@ -23,13 +23,13 @@ Walker.prototype.display = function() {
 Walker.prototype.walk = function() {
     var choice = floor(random(4));
     if (choice === 0) {
-        this.x = (this.x++)*zoom;
+        this.x = (this.x+1) * zoom;
     } else if (choice === 1) {
-        this.x = (this.x--)*zoom;
+        this.x = (this.x-1) * zoom;
     } else if (choice === 2) {
-        this.y = (this.y++)*zoom;
+        this.y = (this.y+1) * zoom;
     } else {
-        this.y = (this.y--)*zoom;
+        this.y = (this.y-1) * zoom;
     }
 };
 
