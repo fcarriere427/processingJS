@@ -1,12 +1,10 @@
 let width = 1500;
 let height = 750;
-let zoom = 1.0005;
+let zoom = 1.0002;
 
 function setup() {
   createCanvas(width, height);
   background(255);
-  // stroke(255);
-  // noLoop();
 }
 
 var Walker = function() {
