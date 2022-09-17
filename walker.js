@@ -1,5 +1,6 @@
 let width = 1500;
 let height = 750;
+let zoom = 10;
 
 function setup() {
   createCanvas(width, height);
@@ -22,13 +23,13 @@ Walker.prototype.display = function() {
 Walker.prototype.walk = function() {
     var choice = floor(random(4));
     if (choice === 0) {
-        this.x++;
+        this.x=(this.x++)*zoom;
     } else if (choice === 1) {
-        this.x--;
+        this.x=(this.x--)*zoom;
     } else if (choice === 2) {
-        this.y++;
+        this.y=(this.y++)*zoom;
     } else {
-        this.y--;
+        this.y=(this.y--)*zoom;
     }
 };
 
